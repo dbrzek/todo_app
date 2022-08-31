@@ -5,8 +5,8 @@ It is a simple todo_app with phone authentication and stored data in firebase. U
 ## Table of Contents
 * [App Features](#app-features)
 * [Visualization](#visualization)
-* [Features](#features)
 * [Packages used in project](#package-used-in-project)
+* [Project Status](#project-status)
 * [Contact](#contact)
 
 ## App Features
@@ -20,7 +20,7 @@ It is a simple todo_app with phone authentication and stored data in firebase. U
 - Counting up the number of tasks<br><br>
 
 ## Visualization
-![Visualization](./iGIF 31.08.2022 09-56-08.gif)
+![Visualization](./presentation.gif)
 
 ## Packages used in project:
 
