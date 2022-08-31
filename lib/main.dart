@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Get.lazyPut(() => TaskData());
-    // Get.put(TaskData());
     return GetMaterialApp(
         home: LoginScreen(),
       );

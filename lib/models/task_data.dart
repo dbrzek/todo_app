@@ -17,15 +17,6 @@ class TaskData extends GetxController {
     update();
   }
 
-  // factory Task.fromSnapshot(DocumentSnapshot snapshot){
-  //   return Task(
-  //     id:snapshot.id,
-  //     message: snapshot.data()['message'],
-  //     senderId: snapshot.data()['senderId'],
-  //     timeStamp: snapshot.data()['timeStamp'],
-  //     isMedia: snapshot.data()['isMedia'],
-  //   );
-  // }
   Future<void> getData(String uid) async {
     _tasks = [];
     try {
@@ -67,7 +58,6 @@ class TaskData extends GetxController {
     } catch (error) {
       print(error);
     }
-    // notifyListeners();
   }
 
   Future<void> updateTask(
@@ -84,21 +74,16 @@ class TaskData extends GetxController {
       final id = querysnapshot.docs
           .firstWhere((element) => element['createdAt'] == task.createdAt)
           .id;
-      print(id);
-      // if (id != null) {
       FirebaseFirestore.instance
           .collection('users')
           .doc(uid)
           .collection('tasks')
           .doc(id)
           .update({'isdone': task.isDone});
-      // }
       update();
     } catch (error) {
       print(error);
     }
-
-    // notifyListeners();
   }
 
   Future<void> deleteTask(String uid, Task task) async {
@@ -113,19 +98,15 @@ class TaskData extends GetxController {
           .firstWhere((element) => element['createdAt'] == task.createdAt)
           .id;
       print(id);
-      // if (id != null) {
       FirebaseFirestore.instance
           .collection('users')
           .doc(uid)
           .collection('tasks')
           .doc(id)
           .delete();
-      // }
       update();
     } catch (error) {
       print(error);
     }
-
-    // notifyListeners();
   }
 }

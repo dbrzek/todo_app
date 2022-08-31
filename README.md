@@ -1,16 +1,40 @@
 # to_do_app
 
-A new Flutter project.
+It is a simple todo_app with phone authentication and stored data in firebase. Using getX state management and navigation.
 
-## Getting Started
+## Table of Contents
+* [App Features](#app-features)
+* [Visualization](#visualization)
+* [Features](#features)
+* [Packages used in project](#package-used-in-project)
+* [Contact](#contact)
 
-This project is a starting point for a Flutter application.
+## App Features
+- Login Using Phone Number.<br>
+- Send OTP to device.<br>
+- Auto Verification of OTP.<br>
+- Manually Entering OTP & Verifying it.<br>
+- Adding tasks to do.<br>
+- Marking the completion of tasks<br>
+- Deleting tasks<br>
+- Counting up the number of tasks<br><br>
 
-A few resources to get you started if this is your first Flutter project:
+## Visualization
+![Visualization](./iGIF 31.08.2022 09-56-08.gif)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Packages used in project:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Firebase Core](https://pub.dev/packages/firebase_core)
+- [Firebase Auth](https://pub.dev/packages/firebase_auth)
+- [Cloud Firestore](https://pub.dev/packages/cloud_firestore)
+- [GetX](https://pub.dev/packages/get)
+- [PinPut](https://pub.dev/packages/pinput)
+<br><br>
+
+## Project Status
+The project is completed. However, it needs more efficient updates and search tasks in Firestore. Nevertheless, it is sufficient for a project of this size. 
+
+## Contact
+Created by [@dbrzek](mailto:brzek.damian@gmail.com) - feel free to contact me!
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
