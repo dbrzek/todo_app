@@ -1,11 +1,11 @@
 # to_do_app
 
-It is a simple todo_app with phone authentication and stored data in firebase. Using getX state management and navigation.
+It is a simple todo_app with phone authentication and stored data in **firebase**. Using getX state management and navigation in **Flutter** framework.
 
 ## Table of Contents
 * [App Features](#app-features)
 * [Visualization](#visualization)
-* [Packages used in project](#package-used-in-project)
+* [Packages used in project](#packages-used-in-project)
 * [Project Status](#project-status)
 * [Contact](#contact)
 
@@ -15,9 +15,9 @@ It is a simple todo_app with phone authentication and stored data in firebase. U
 - Auto Verification of OTP.<br>
 - Manually Entering OTP & Verifying it.<br>
 - Adding tasks to do.<br>
-- Marking the completion of tasks<br>
-- Deleting tasks<br>
-- Counting up the number of tasks<br><br>
+- Marking the completion of tasks.<br>
+- Deleting tasks.<br>
+- Counting up the number of tasks.<br><br>
 
 ## Visualization
 ![Visualization](./presentation.gif)
